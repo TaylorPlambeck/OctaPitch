@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="be.tarsos.taylor.plambeck.android.octapitch.OctaPitch_Main">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="TUNINgS"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/tuningSTANDARD"
+                android:title="STANDARD - eADGBe"/>
+            <item
+                android:id="@+id/tuningDROPD"
+                android:title="DrOp D - DADGBe"/>
+            <item
+                android:id="@+id/tuningDOWNWHOLE"
+                android:title="WHOLe STep DOWN - DGCFAD"/>
+            <item
+                android:id="@+id/tuningDOWNHALF"
+                android:title="HaLF STep DOWN - D#G#C#F#A#D#"/>
+            <item
+                android:id="@+id/tuningDOUBLEDROPD"
+                android:title="DOUBLE DrOp D - DADGBD"/>
+            <item
+                android:id="@+id/tuningOPENC"
+                android:title="OpEN C - CGCGCe"/>
+            <item
+                android:id="@+id/tuningCELTIC"
+                android:title="CeLTIC - DADGAD"/>
+        </menu>
+     </item>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="300"
+        android:title="About OctAPItch"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/action_insight"
+        android:orderInCategory="200"
+        android:title="INSIghT"
+        app:showAsAction="never">
+    </item>
+
+</menu>

@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "be.tarsos.taylor.plambeck.android.octapitch"
+        minSdkVersion 16
+        targetSdkVersion 20
+        versionCode 3
+        versionName "3"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:20.0.0'
+    compile 'com.android.support:support-v4:20.0.0'
+    compile files('libs/TarsosDSP-Android-2.0-bin.jar')
+}

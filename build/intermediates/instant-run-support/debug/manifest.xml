@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="be.tarsos.tarsos.plambeck.android.octapitch"
+    android:versionCode="2"
+    android:versionName="2" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/regicon"
+        android:label="OctaPitch"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="be.tarsos.tarsos.plambeck.android.octapitch.OctaPitch_Main"
+            android:label="OctaPitch"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

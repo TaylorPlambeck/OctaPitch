@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg5"
+    tools:context="be.tarsos.taylor.plambeck.android.octapitch.OctaPitch_Main$PlaceholderFragment" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/triangle">
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/textViewPitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="25dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="355dp" />
+    <TextView
+        android:id="@+id/textViewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="37dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="308dp"/>
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="388dp"
+        />
+</RelativeLayout>

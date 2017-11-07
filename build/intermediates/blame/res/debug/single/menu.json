@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Taylor\\AndroidStudioProjects\\TarsosDSP AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tarsos_ds.xml",
+        "source": "C:\\Users\\Taylor\\AndroidStudioProjects\\TarsosDSP AndroidTest\\app\\src\\main\\res\\menu\\tarsos_ds.xml"
+    },
+    {
+        "merged": "C:\\Users\\Taylor\\AndroidStudioProjects\\TarsosDSP AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu\\tarsos_dsptest.xml",
+        "source": "C:\\Users\\Taylor\\AndroidStudioProjects\\TarsosDSP AndroidTest\\app\\src\\main\\res\\menu\\tarsos_dsptest.xml"
+    }
+]
