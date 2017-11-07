@@ -2,7 +2,9 @@
 
 <img src="https://user-images.githubusercontent.com/28762594/32516272-a207c518-c3b7-11e7-815e-707010b06b24.png" width="374" height="666">
 
-OctaPitch is a guitar tuner created by Taylor Plambeck. It records audio and performs autocorrelation to find pitch. This pitch is what is used on the display to tune the guitar. This Git is to show example code and project setup, the fonts and background were not created by me. 
+OctaPitch is a guitar tuner created by Taylor Plambeck. It records audio and performs autocorrelation to find pitch. This pitch is what is used on the display to tune the guitar. This Git is to show example code and project setup, the fonts and background were not created by me. If you want to read about the entire development, check out the "OctaPitch Final Report.pdf".
+
+### Play Store Ad
 
 App or Art?
 
